@@ -66,3 +66,14 @@ body{
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
 }
+
+.fixed2 {
+  position: fixed;
+  right: 100px;
+  bottom: 45px;
+  opacity: 0.6;
+}
+
+.fixed2:hover {
+  opacity: 1;
+}
