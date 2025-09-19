@@ -1338,8 +1338,8 @@ h6 { font-size: 16px; }
 	padding-right: 15px;
 	padding-top: 32px;
 }
-.grax_tm_news .news_list ul li .details .title{margin-bottom: 10px;}
-.grax_tm_news .news_list ul li .details .title a{
+.grax_tm_news .news_list ul li .details .title{
+	margin-bottom: 10px;
 	text-decoration: none;
 	color: #000;
 	font-size: 18px;
@@ -1352,7 +1352,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_news .news_list ul li .details .title a:hover{color: #03792a;}
+/* .grax_tm_news .news_list ul li .details .title:hover{color: #03792a;} */
 .grax_tm_news .news_list ul li .details .date{
 	text-transform: uppercase;
 	font-family: 'Paperozi';;
@@ -2517,4 +2517,5 @@ body.dark .grax_tm_settings .cursor li .svg,
 	.grax_tm_news .news_list ul{margin: 0px;}
 	.grax_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 }
+
 
